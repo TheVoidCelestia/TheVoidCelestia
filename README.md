@@ -23,14 +23,14 @@
 ### 🌸 Who Am I?
 
 ```
-  ✨ Name        :  Rei  [ TheVoidCelestia ]
-  🚀 Role        :  Full Stack Developer  +  ML / AI Alchemist
-  🌍 Based in    :  India 🇮🇳
-  🎓 Learning    :  Neural Networks  |  UI/UX Design  |  Data Engineering
+  ✨ Name     :  Rei  [ TheVoidCelestia ]
+  🚀 Role      :  Full Stack Developer  +  ML / AI Alchemist
+  🌍 Based in   :  India 🇮🇳
+  🎓 Learning   :  Neural Networks  |  UI/UX Design  |  Data Engineering
   🌟 Philosophy  :  Every bug fixed is a star born in the cosmos
-  💜 Co-pilot    :  TheVoidJulius [ Ren ] 🌑
-  📡 Status      :  Open to collabs, internships & OSS contributions
-  📬 Contact     :  Available via GitHub or LinkedIn
+  💜 Co-pilot  :  TheVoidJulius [ Ren ] 🌑
+  📡 Status    :  Open to collabs, internships & OSS contributions
+  📬 Contact   :  Available via GitHub or LinkedIn
 ```
 
 </div>
@@ -43,11 +43,11 @@
 
 </div>
 
-| 🚀 Project | 🛠️ Stack | 📌 Status |
-|---|---|---|
-| **StarMap** — Data visualization web app | React + D3.js + Python | 🟡 In Progress |
-| **CelestialML** — NLP & image models | Python + TensorFlow + Flask | 🟢 Active |
-| **CelestialAPI** — Collab with [@TheVoidJulius](https://github.com/TheVoidJulius) | yet to reveal | 🔵 Planning |
+    | 🚀 Project | 🛠️ Stack | 📌 Status |
+    |---|---|---|
+    | **StarMap** — Data visualization web app | React + D3.js + Python | 🟡 In Progress |
+    | **CelestialML** — NLP & image models | Python + TensorFlow + Flask | 🟢 Active |
+    | **CelestialAPI** — Collab with [@TheVoidJulius](https://github.com/TheVoidJulius) | yet to reveal | 🔵 Planning |
 
 ---
 
