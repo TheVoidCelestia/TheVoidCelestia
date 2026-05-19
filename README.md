@@ -23,7 +23,7 @@
 ### 🌸 Who Am I?
 
 ```
-✨ Name       :  Rei  [ TheVoidCelestia ]
+✨ Name       :  Manya Gupta  [ TheVoidCelestia ]
 🚀 Role       :  Front End Developer  +  ML / AI Alchemist
 🌍 Based in   :  India 🇮🇳
 🎓 Learning   :  Neural Networks  |  UI/UX Design  |  Data Engineering
