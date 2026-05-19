@@ -43,11 +43,11 @@
 
 </div>
 
-    | 🚀 Project | 🛠️ Stack | 📌 Status |
-    |---|---|---|
-    | **StarMap** — Data visualization web app | React + D3.js + Python | 🟡 In Progress |
-    | **CelestialML** — NLP & image models | Python + TensorFlow + Flask | 🟢 Active |
-    | **CelestialAPI** — Collab with [@TheVoidJulius](https://github.com/TheVoidJulius) | yet to reveal | 🔵 Planning |
+  | 🚀 Project | 🛠️ Stack | 📌 Status |
+       |---|---|---|
+       | **StarMap** — Data visualization web app | React + D3.js + Python | 🟡 In Progress |
+       | **CelestialML** — NLP & image models | Python + TensorFlow + Flask | 🟢 Active |
+       | **CelestialAPI** — Collab with [@TheVoidJulius](https://github.com/TheVoidJulius) | yet to reveal | 🔵 Planning |
 
 ---
 
