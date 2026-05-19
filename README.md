@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D1A,50:3a0a2a,100:1a0535&height=220&section=header&text=TheVoidCelestia&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Rei%20%7C%20Born%20of%20Starlight%2C%20forged%20in%20December%20skies&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="./banner_celestia.svg" width="100%"/>
 
 <br/>
 
