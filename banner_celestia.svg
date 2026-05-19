@@ -1,0 +1,176 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#2a0a1f"/>
+      <stop offset="50%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#080510"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F15BB5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F15BB5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .s1 { animation: twinkle1 2.8s ease-in-out infinite alternate; }
+      .s2 { animation: twinkle2 3.5s ease-in-out infinite alternate; }
+      .s3 { animation: twinkle3 2.1s ease-in-out infinite alternate; }
+      .s4 { animation: twinkle4 4.2s ease-in-out infinite alternate; }
+      .s5 { animation: twinkle5 1.9s ease-in-out infinite alternate; }
+      @keyframes twinkle1 { 0%{opacity:0.15} 100%{opacity:1} }
+      @keyframes twinkle2 { 0%{opacity:0.8}  100%{opacity:0.1} }
+      @keyframes twinkle3 { 0%{opacity:0.4}  100%{opacity:0.95} }
+      @keyframes twinkle4 { 0%{opacity:0.9}  100%{opacity:0.2} }
+      @keyframes twinkle5 { 0%{opacity:0.2}  100%{opacity:0.7} }
+      .shoot  { animation: shooting  7s linear       infinite; opacity:0; }
+      .shoot2 { animation: shooting  8s linear 3.5s  infinite; opacity:0; }
+      @keyframes shooting {
+        0%   { opacity:0; transform:translate(0,0); }
+        5%   { opacity:1; }
+        30%  { opacity:0; transform:translate(110px,36px); }
+        100% { opacity:0; transform:translate(110px,36px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Glow orbs -->
+  <ellipse cx="250" cy="100" rx="190" ry="105" fill="url(#glowPink)"/>
+  <ellipse cx="680" cy="115" rx="170" ry="95"  fill="url(#glowPurple)"/>
+  <ellipse cx="450" cy="75"  rx="130" ry="65"  fill="url(#glowPink)" opacity="0.4"/>
+
+  <!-- Wave bottom -->
+  <path d="M0,185 Q150,168 300,183 Q450,198 600,172 Q750,150 900,175 L900,220 L0,220 Z" fill="#0d0d1a" opacity="0.7"/>
+  <path d="M0,197 Q200,180 400,194 Q600,208 900,191 L900,220 L0,220 Z" fill="#080510" opacity="0.9"/>
+
+  <!-- Stars - tiny dots -->
+  <g fill="white">
+    <circle class="s2" cx="19"  cy="17"  r="0.7" opacity="0.5"/>
+    <circle class="s4" cx="63"  cy="34"  r="0.5" opacity="0.6"/>
+    <circle class="s1" cx="108" cy="11"  r="0.8" opacity="0.4"/>
+    <circle class="s3" cx="142" cy="49"  r="0.6" opacity="0.7"/>
+    <circle class="s5" cx="187" cy="24"  r="0.7" opacity="0.5"/>
+    <circle class="s2" cx="231" cy="47"  r="0.5" opacity="0.6"/>
+    <circle class="s4" cx="275" cy="14"  r="0.8" opacity="0.3"/>
+    <circle class="s1" cx="309" cy="61"  r="0.6" opacity="0.8"/>
+    <circle class="s3" cx="352" cy="30"  r="0.7" opacity="0.4"/>
+    <circle class="s5" cx="394" cy="51"  r="0.5" opacity="0.6"/>
+    <circle class="s2" cx="441" cy="20"  r="0.8" opacity="0.5"/>
+    <circle class="s4" cx="485" cy="57"  r="0.6" opacity="0.7"/>
+    <circle class="s1" cx="520" cy="36"  r="0.7" opacity="0.4"/>
+    <circle class="s3" cx="574" cy="10"  r="0.5" opacity="0.8"/>
+    <circle class="s5" cx="608" cy="48"  r="0.8" opacity="0.3"/>
+    <circle class="s2" cx="652" cy="25"  r="0.6" opacity="0.6"/>
+    <circle class="s4" cx="697" cy="62"  r="0.7" opacity="0.5"/>
+    <circle class="s1" cx="741" cy="16"  r="0.5" opacity="0.7"/>
+    <circle class="s3" cx="785" cy="43"  r="0.8" opacity="0.4"/>
+    <circle class="s5" cx="830" cy="19"  r="0.6" opacity="0.6"/>
+    <circle class="s2" cx="863" cy="57"  r="0.7" opacity="0.5"/>
+    <circle class="s1" cx="41"  cy="73"  r="0.5" opacity="0.6"/>
+    <circle class="s3" cx="86"  cy="90"  r="0.8" opacity="0.3"/>
+    <circle class="s4" cx="164" cy="81"  r="0.6" opacity="0.7"/>
+    <circle class="s5" cx="211" cy="95"  r="0.7" opacity="0.4"/>
+    <circle class="s2" cx="256" cy="77"  r="0.5" opacity="0.6"/>
+    <circle class="s1" cx="331" cy="98"  r="0.8" opacity="0.5"/>
+    <circle class="s3" cx="378" cy="83"  r="0.6" opacity="0.7"/>
+    <circle class="s4" cx="416" cy="99"  r="0.7" opacity="0.3"/>
+    <circle class="s5" cx="462" cy="76"  r="0.5" opacity="0.8"/>
+    <circle class="s2" cx="540" cy="91"  r="0.8" opacity="0.4"/>
+    <circle class="s1" cx="586" cy="74"  r="0.6" opacity="0.6"/>
+    <circle class="s3" cx="631" cy="93"  r="0.7" opacity="0.5"/>
+    <circle class="s4" cx="674" cy="79"  r="0.5" opacity="0.7"/>
+    <circle class="s5" cx="720" cy="97"  r="0.8" opacity="0.3"/>
+    <circle class="s2" cx="764" cy="84"  r="0.6" opacity="0.6"/>
+    <circle class="s1" cx="808" cy="70"  r="0.7" opacity="0.5"/>
+    <circle class="s3" cx="852" cy="92"  r="0.5" opacity="0.7"/>
+    <circle class="s2" cx="30"  cy="157" r="0.6" opacity="0.3"/>
+    <circle class="s4" cx="74"  cy="140" r="0.7" opacity="0.5"/>
+    <circle class="s1" cx="116" cy="164" r="0.5" opacity="0.4"/>
+    <circle class="s3" cx="776" cy="147" r="0.7" opacity="0.3"/>
+    <circle class="s5" cx="826" cy="160" r="0.6" opacity="0.5"/>
+    <circle class="s2" cx="866" cy="142" r="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Stars - medium glowing -->
+  <g filter="url(#blur1)">
+    <circle class="s3" cx="52"  cy="27"  r="1.5" fill="#ffffff"  opacity="0.8"/>
+    <circle class="s5" cx="176" cy="62"  r="1.8" fill="#ffb0d8"  opacity="0.7"/>
+    <circle class="s2" cx="287" cy="37"  r="1.5" fill="#ffffff"  opacity="0.9"/>
+    <circle class="s4" cx="366" cy="57"  r="1.8" fill="#d0b0ff"  opacity="0.6"/>
+    <circle class="s1" cx="497" cy="27"  r="1.5" fill="#ffffff"  opacity="0.8"/>
+    <circle class="s3" cx="617" cy="47"  r="1.8" fill="#ffb0d8"  opacity="0.7"/>
+    <circle class="s5" cx="727" cy="32"  r="1.5" fill="#ffffff"  opacity="0.9"/>
+    <circle class="s2" cx="837" cy="52"  r="1.8" fill="#d0b0ff"  opacity="0.6"/>
+    <circle class="s4" cx="127" cy="87"  r="1.5" fill="#ffffff"  opacity="0.7"/>
+    <circle class="s1" cx="457" cy="92"  r="1.8" fill="#ffb0d8"  opacity="0.8"/>
+    <circle class="s3" cx="797" cy="77"  r="1.5" fill="#ffffff"  opacity="0.7"/>
+  </g>
+
+  <!-- Stars - big bright -->
+  <g filter="url(#blur2)">
+    <circle class="s2" cx="85"  cy="44"  r="3"   fill="#F15BB5" opacity="0.9"/>
+    <circle class="s4" cx="317" cy="22"  r="2.5" fill="#9B5DE5" opacity="0.8"/>
+    <circle class="s1" cx="577" cy="57"  r="3"   fill="#F15BB5" opacity="0.9"/>
+    <circle class="s3" cx="857" cy="30"  r="2.5" fill="#9B5DE5" opacity="0.8"/>
+    <circle class="s5" cx="447" cy="87"  r="2.5" fill="#ffffff"  opacity="0.6"/>
+  </g>
+
+  <!-- 4-point star sparkles (special December stars) -->
+  <g fill="#F15BB5" opacity="0.7" class="s1">
+    <path d="M155,42 L157,38 L159,42 L163,44 L159,46 L157,50 L155,46 L151,44 Z"/>
+  </g>
+  <g fill="#c0a0ff" opacity="0.6" class="s3">
+    <path d="M760,35 L762,31 L764,35 L768,37 L764,39 L762,43 L760,39 L756,37 Z"/>
+  </g>
+  <g fill="#F15BB5" opacity="0.5" class="s5">
+    <path d="M550,18 L551.5,14 L553,18 L557,19.5 L553,21 L551.5,25 L550,21 L546,19.5 Z"/>
+  </g>
+
+  <!-- Shooting star 1 -->
+  <g class="shoot" transform="translate(80,25)">
+    <line x1="0" y1="0" x2="-42" y2="-14" stroke="#ffb0d8" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="0" cy="0" r="1.5" fill="#ffb0d8"/>
+  </g>
+
+  <!-- Shooting star 2 -->
+  <g class="shoot2" transform="translate(720,18)">
+    <line x1="0" y1="0" x2="-48" y2="-16" stroke="white" stroke-width="1" opacity="0.8"/>
+    <circle cx="0" cy="0" r="1.2" fill="white"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="450" y="105" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="48" font-weight="700" fill="white" filter="url(#textGlow)" letter-spacing="3">
+    TheVoidCelestia
+  </text>
+
+  <!-- Pink underline accent -->
+  <rect x="250" y="115" width="400" height="2.5" rx="1.5" fill="#F15BB5" opacity="0.9"/>
+  <rect x="340" y="115" width="220" height="2.5" rx="1.5" fill="#9B5DE5" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="148" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="15" fill="#ffb0d8" opacity="0.85" letter-spacing="1.5">
+    Rei  ·  Born of Starlight, forged in December skies
+  </text>
+
+  <!-- Small bottom tag -->
+  <text x="450" y="172" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="11" fill="#F15BB5" opacity="0.55" letter-spacing="4">
+    FULL STACK  ·  ML / AI  ·  OPEN SOURCE
+  </text>
+</svg>
