@@ -142,7 +142,7 @@
 ### 🌠 Find Me in the Stars
 
 [![GitHub](https://img.shields.io/badge/GitHub-TheVoidCelestia-F15BB5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheVoidCelestia)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/manya-gupta-05728a37a)
 
 <br/>
 
